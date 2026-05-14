@@ -1,0 +1,23 @@
+{
+  "youtube_api_keys": [
+    "ключ1",
+    "ключ2"
+  ],
+
+  "whitelist_countries": ["US", "GB", "CA", "AU", "NZ", "IE"],
+  "blacklist_countries": ["IN", "PH", "PK", "BD", "NG"],
+
+  "min_subscribers": 1000,
+  "min_videos": 5,
+  "max_days_since_upload": 365,
+
+
+  "regions_to_search": ["US","GB","CA"],
+  "max_results_per_query": 40, 
+
+  "games_file": "games.txt",
+  "output_file": "results.xlsx",
+
+  "headless_browser": true,
+  "request_delay_seconds": 2
+}
